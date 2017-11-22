@@ -5,3 +5,7 @@ header .dropdown-help{display:none}
 body {
   font-family: 'Noto Kufi Arabic', sans-serif;
 }
+
+.text-muted {
+    display:none
+}
