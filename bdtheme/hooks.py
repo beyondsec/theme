@@ -16,20 +16,13 @@ app_license = "MIT"
 
 # include js, css files in header of desk.html
 app_include_css = [
-    "/assets/bdtheme/css/bdtheme.css",
-    "/assets/bdtheme/css/skin-blue.css",
     "/assets/bdtheme/css/custom.css",
-    "/assets/bdtheme/css/temp.css",
 ]
 app_include_js = [
-    "/assets/bdtheme/js/bdtheme.js",
-    "/assets/bdtheme/js/custom.js",
-    "/assets/js/bdtheme-template.min.js",
 ]
 
 # include js, css files in header of web template
 web_include_css = "/assets/bdtheme/css/bdtheme-web.css"
-# web_include_js = "/assets/bdtheme/js/bdtheme.js"
 
 # include js in page
 # page_js = {"page" : "public/js/file.js"}
@@ -127,4 +120,3 @@ web_include_css = "/assets/bdtheme/css/bdtheme-web.css"
 # override_whitelisted_methods = {
 # 	"frappe.desk.doctype.event.event.get_events": "bdtheme.event.get_events"
 # }
-
